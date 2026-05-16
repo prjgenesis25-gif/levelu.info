@@ -510,16 +510,26 @@
     .steps::before { display: none; }
     .hero { padding: 7rem 1.5rem 4rem; }
     footer { flex-direction: column; text-align: center; }
-  }
+  }.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
 </style>
 </head>
 <body>
 
 <nav>
   <div class="nav-logo">
-    LEVEL UP
-    <span>Ukrainian North Star Foundation</span>
-  </div>
+  LEVEL UP
+  <span>Ukrainian North Star Foundation</span>
+  <img src="logo.png" class="header-logo" alt="Logo">
+</div>
   <div class="nav-right">
     <ul class="nav-links">
       <li><a href="#about"><span class="uk-text">Про програму</span><span class="en-text">About</span></a></li>
